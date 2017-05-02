@@ -78,7 +78,7 @@ describe "Hashes" do
   describe "evens_and_odds" do
     it "counts even and odd numbers" do
       arr = [1,2,3,1,5]
-      expect(evens_and_odds(arr)).to eq({ even: 1, odd: 4 })
+      expect(evens_and_odds(arr)).to eq("even" => 1, "odd" => 4)
     end
   end
 
